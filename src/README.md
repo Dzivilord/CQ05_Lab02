@@ -21,21 +21,25 @@ Install dependencies
 pip install -r requirements.txt
 ```
 ## Project Structure 
+
+```
 <GroupID>
 ├── src
 │   ├── Task_2.1
-│   │   ├── CQ05.jar 
-│   │   ├── output.csv  
-│   │   └── ...  
+│   │   ├── CQ05.jar
+│   │   ├── output.csv
+│   │   └── ...
 │   ├── Task_2.2
-│   │   ├── CQ05.ipynb  
-│   │   ├── output.csv  
-│   │   └── ...  
+│   │   ├── CQ05.ipynb
+│   │   ├── output.csv
+│   │   └── ...
 │   ├── Task_2.3
-│   │   ├── CQ05.ipynb  
-│   │   ├── output.csv  
-│   ├──README (optional, instructions to run the code)  
-│   │   
+│   │   ├── CQ05.ipynb
+│   │   ├── output.csv
+│   │   └── ...
+│   ├── README (optional, instructions to run the code)
+│
 ├── docs
 │   └── Report.pdf
+```
  
