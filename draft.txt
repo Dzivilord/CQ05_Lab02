@@ -3,9 +3,17 @@ Các bước thực hiện bài 1: V Lợi, Tiến Anh
 
 
 Ý tưởng thực hiện bài 2: Cường 
-
+ - Chọn ra ngày thứ 2 mà các ngày khác thuộc về và gán thêm một cột ngày thứ 2 đó cho chúng
+ - Sắp xếp, chọn ra những record có Status là "Shipped"
+ - Grouby theo ngày thứ 2 và SKU
 Các bước thực hiện bài 2: Cường
+- Bước 1: Tạo Park Session và import các thư viện cần thiết.
+- Bước 2: Đọc file, xem các kiểu dữ liệu có phù hợp chưa, nếu chưa điều chỉnh lại cho đúng. 
+- Bước 3: Sắp xếp các record theo thứ tự Date, SKU và filter các record có Status là Shipped.
+- Bước 4: GroupBy 2 cột date và SKU, tính tổng cột Qty và lưu với tên total_quantity.
+- Bước 5: Format lại dữ liệu theo yêu cầu và ghi ra file.
 
+Note: Do em chạy chương trình ở local, nên có một số tên file, đường dẫn file em đoán sẽ chưa đúng với máy thầy, trong quá trình chấm điểm mong thầy có thể giúp nhóm điều chỉnh cho phù hợp.
 Ý tưởng thực hiện bài 3: T Lợi
 
 Các bước thực hiện bài 3: T Lợi
