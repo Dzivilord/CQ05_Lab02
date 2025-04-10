@@ -21,6 +21,7 @@ Note: Do em chạy chương trình ở local, nên có một số tên file, đ�
 - Chứng minh các tứ giác này là hình chữ nhật.
 - Sau đó lọc lấy 4 giá trị x_min, x_max, y_min và y_max.
 - Thực hiện kiểm tra overlap giữa hai hình bằng cách kiểm ra x_min_a > x_max_b hoặc y_min_a > y_min_b hoặc ngược lại.
+
 Các bước thực hiện bài 3: T Lợi
 Bước 1: import các thư viện cần thiết và tạo Spark Session.
 Bước 2: đọc file, kiểm tra kiểu dữ liệu và chuyển shape_id thành dạng số.
