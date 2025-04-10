@@ -22,8 +22,7 @@ pip install -r requirements.txt
 ```
 ## Project Structure 
 
-```
-```
+```plain
 <GroupID>
 ├── src
 │   ├── Task_2.1
@@ -31,35 +30,22 @@ pip install -r requirements.txt
 │   │   ├── output.csv
 │   │   └── source
 │   │       ├── jar
-│   │           ├── SlidingWindowRevenue.jar
+│   │       │   └── SlidingWindowRevenue.jar
 │   │       ├── build
-│   │           ├── SlidingWindowMapper.class
-│   │           ├── SlidingWindowReducer.class
-│   │           ├── SlidingWindowDriver.class
+│   │       │   ├── SlidingWindowMapper.class
+│   │       │   ├── SlidingWindowReducer.class
+│   │       │   └── SlidingWindowDriver.class
 │   │       ├── SlidingWindowMapper.java
 │   │       ├── SlidingWindowReducer.java
-│   │       ├── SlidingWindowDriver.java
+│   │       └── SlidingWindowDriver.java
 │   ├── Task_2.2
 │   │   ├── 22120017.ipynb
 │   │   ├── output.csv
 │   ├── Task_2.3
 │   │   ├── 22120017.ipynb
 │   │   ├── output.csv
-│   ├── README (optional, instructions to run the code)
-│   ├── requirements.txt
-│
-├── docs
-│   └── Report.pdf
-```
-│   ├── Task_2.2
-│   │   ├── 22120017.ipynb
-│   │   ├── output.csv
-│   ├── Task_2.3
-│   │   ├── 22120017.ipynb
-│   │   ├── output.csv
-│   ├── README (optional, instructions to run the code)
-│   ├── requirements.txt
-│
+│   ├── README               # Optional: instructions to run the code
+│   └── requirements.txt     # Python dependencies
 ├── docs
 │   └── Report.pdf
 ```
